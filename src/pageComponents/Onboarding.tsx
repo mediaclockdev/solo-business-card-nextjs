@@ -11,7 +11,6 @@ import { loadBusinessCards } from "@/utils/cardStorage";
 // ✅ import Header, Footer, and Modals like in BusinessCardCreator
 
 import Header from "@/components/Header";
-import Footer from "@/components/Footer";
 import SignInModal from "@/components/SignInModal";
 import SignUpModal from "@/components/SignUpModal";
 
@@ -85,7 +84,7 @@ export default function Onboarding() {
       </main>
 
       {/* ✅ Footer */}
-      <Footer />
+      
 
       {/* ✅ Sign In Modal */}
       <SignInModal
